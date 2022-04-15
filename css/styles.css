@@ -1,0 +1,199 @@
+body{
+  font-family: Montserrat;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Montserrat-bold;
+}
+
+.first-header{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+  font-size: 5.5rem;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem
+}
+
+
+.nav-item {
+padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Montserrat-light;
+  font-size: 1.2rem;
+}
+
+/* download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title image */
+
+.rev-image{
+  width: 20%;
+  margin: 0 0 0 10%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+}
+
+@media (max-width:1241px) {
+  .rev-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+
+/* features */
+
+.feature{
+  margin-top: 5%;
+  text-align: center;
+  padding: 5%;
+}
+
+h3{
+    font-family: Montserrat-bold;
+
+}
+
+p {
+  font-family: Montserrat-light;
+  color: #afafaf;
+}
+
+
+#features {
+  padding: 0% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #000;
+}
+
+
+/* testimonials */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#testimonials h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0 20px 50px;
+}
+
+
+.carousel-item{
+  padding: 7% 10%;
+}
+
+
+/* Pricing section */
+
+#pricing{
+  padding: 100px;
+}
+
+
+.pricing-column{
+  padding: 3% 2%
+}
+
+
+#cta{
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+
+}
+
+.cta-h3{
+  font-family: Montserrat-black;
+  font-size: 3rem;
+  margin: 5% 20% 0 20%;
+  padding-top: 6%
+}
+
+.cta-lastsection{
+  margin: 3% 1% 8%;
+
+}
+
+.pricing-heading{
+  text-align: center;
+}
+
+.pricing-paragraph{
+  text-align: center;
+}
+
+
+#footer{
+  font-family: Montserrat-black;
+  text-align: center;
+}
+
+
+.footer-icon{
+  margin: 7% 10px 2%;
+}
+
+.copyright{
+  margin: 1% auto 3%
+}
